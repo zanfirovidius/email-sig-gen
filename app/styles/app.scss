@@ -1,0 +1,71 @@
+@import 'ember-paper';
+// it generates classes for margins and paddings
+// example of uses: "p-t-md" will add a top padding of 15px
+
+// app.scss
+
+// Define desired color palettes.
+$primary: "blue";
+$accent: "pink";
+$warn: "pink";
+
+@import "ember-paper";
+
+// Import or define the rest of your application's styles.
+
+$sizes:
+('none' 0)
+('xxs' 1)
+('xs' 5)
+('sm' 10)
+('md' 15)
+('lg' 20)
+('xl' 40)
+('c56' 56)
+('c3' 3)
+('c14' 14)
+('c24' 24)
+('c28' 28)
+('c43' 43)
+('c50' 50)
+('c56' 56)
+('c112' 112)
+('c224' 224)
+('nc6' -6);
+
+$properties:
+('margin' 'm')
+('padding' 'p');
+
+$positions:
+('t' 'top')
+('b' 'bottom')
+('l' 'left')
+('r' 'right');
+
+@each $size-name, $size-value in $sizes {
+  @each $property-value, $property-name in $properties {
+    @each $position-name, $position-value in $positions {
+      .#{$property-name}-#{$position-name}-#{$size-name} {
+        #{$property-value}-#{$position-value}: #{$size-value}px;
+      }
+    }
+  }
+}
+
+
+md-input-container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.the-code {
+  padding: 20px;
+  background: rgba(0,0,0,0.1);
+  color: #000;
+  font-size: 12px;
+  line-height: 1;
+  max-height: 300px;
+  overflow: hidden;
+  display: inline-block;
+}

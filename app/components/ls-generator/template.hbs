@@ -1,0 +1,49 @@
+
+{{#paper-card as |card|}}
+  {{#card.title as |title|}}
+    {{#title.text as |text|}}
+      {{#text.headline}}{{/text.headline}}
+    {{/title.text}}
+  {{/card.title}}
+  {{#card.content}}
+    <div layout="" layout-sm="column">
+      {{paper-input flex=50 label="Name" value=model.name onChange=(action (mut model.name))}}
+      {{paper-input flex=50 label="Job Title" value=model.jobTitle onChange=(action (mut model.jobTitle))}}
+    </div>
+    <div layout="" layout-sm="column">
+      {{paper-input flex=100 label="Address" value=model.address onChange=(action (mut model.address))}}
+    </div>
+    <div layout="" layout-sm="column">
+      {{paper-input flex=50 label="Direct phone" value=model.directPhone onChange=(action (mut model.directPhone))}}
+      {{paper-input flex=50 label="Office phone" value=model.officePhone onChange=(action (mut model.officePhone))}}
+    </div>
+
+    <!-- soccial icons -->
+
+    <div layout="" layout-sm="column">
+      {{paper-input flex=50 label="Facebook" value=model.facebook onChange=(action (mut model.facebook))}}
+      {{paper-input flex=50 label="Twitter" value=model.twitter onChange=(action (mut model.twitter))}}
+      {{paper-input flex=50 label="Linkedin" value=model.linkedin onChange=(action (mut model.linkedin))}}
+    </div>
+
+    <div layout="" layout-sm="column">
+      {{paper-input flex=50 label="Skype" value=model.skype onChange=(action (mut model.skype))}}
+      {{paper-input flex=50 label="Googleplus" value=model.googlePlus onChange=(action (mut model.googlePlus))}}
+      {{paper-input flex=50 label="Youtube" value=model.youtube onChange=(action (mut model.youtube))}}
+    </div>
+
+
+  {{/card.content}}
+{{/paper-card}}
+
+<div class="m-t-md">
+  <div class="col-md-12">
+		<h3>Adding to your email client</h3>
+		<p>In your email client, open the email signature settings and copy paste the signature preview from this page into your email client's new signature box. </p>
+		<p>For more instructions please see our <a href="https://htmlsig.zendesk.com/hc/en-us/sections/200647278-Installing-Signature" target="_blank">instructions</a> on our help page.</p>
+
+		<hr>
+		<p>For Outlook 2003-2010 and Thunderbird please download your signature and follow these <a href="https://htmlsig.zendesk.com/hc/en-us/articles/204983037-How-do-I-add-a-email-signature-to-Outlook-2003-2013-" target="_blank">instructions</a> to install it to your email client.</p>
+
+	</div>
+</div>

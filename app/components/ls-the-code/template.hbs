@@ -1,0 +1,14 @@
+<div class="col-lg-12">
+  <p>Please copy the code and paste it in your Email Client app in the signature section.</p>
+  <code id="toClipboard" class="the-code">
+    {{theCode}}
+  </code>
+  <div class="m-t-xl">
+    {{#paper-button raised=true warn=true class="clipboard"}}Copy to clipboard{{/paper-button}}
+
+    <a style="display: inline-flex;" class="clipboard ember-view paper-button md-default-theme md-button md-primary md-raised" download="signature.html" href="{{theCodeForDownload}}">
+      Download Template
+      <div class="md-ripple-container"></div>
+    </a>
+  </div>
+</div>

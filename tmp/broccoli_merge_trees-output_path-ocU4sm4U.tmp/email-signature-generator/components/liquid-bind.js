@@ -1,0 +1,1 @@
+/Users/ovidius/Desktop/work/email-signature-generator/node_modules/liquid-fire/app/components/liquid-bind.js

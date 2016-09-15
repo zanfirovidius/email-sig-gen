@@ -1,0 +1,1 @@
+/Users/ovidius/Desktop/work/email-signature-generator/tmp/funnel-input_base_path-ZMpDyZM1.tmp/0/services/ajax.js

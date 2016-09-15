@@ -1,0 +1,25 @@
+{{#paper-toolbar}}
+  {{#paper-toolbar-tools}}
+    <h2 style="color: #fff;">
+      Email signature generator
+    </h2>
+    <span class="flex"></span>
+  {{/paper-toolbar-tools}}
+{{/paper-toolbar}}
+
+<div class="row m-t-lg p-l-lg p-r-md p-t-md p-b-md">
+    <div class="col-lg-6">
+        {{ls-generator model=model}}
+    </div>
+    <div class="col-lg-6">
+        {{ls-preview model=model}}
+        <div class="m-t-xl">
+          {{#paper-button primary=true onClick=(action "viewTheCode")}}{{paper-icon "code"}}{{/paper-button}}
+          {{#liquid-if code}}
+          <div class="m-t-xl">
+            {{ls-theCode model=model}}
+          </div>
+          {{/liquid-if}}
+        </div>
+    </div>
+</div>

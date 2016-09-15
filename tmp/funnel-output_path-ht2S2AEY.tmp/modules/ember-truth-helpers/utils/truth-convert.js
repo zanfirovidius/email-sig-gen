@@ -1,0 +1,1 @@
+/Users/ovidius/Desktop/work/email-signature-generator/tmp/funnel-input_base_path-yf4N6qTN.tmp/0/utils/truth-convert.js
