@@ -1,1 +1,0 @@
-/Users/ovidius/Desktop/work/email-signature-generator/node_modules/ember-cli-app-version/app/components/app-version.js

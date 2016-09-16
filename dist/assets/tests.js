@@ -4,7 +4,7 @@ define('email-signature-generator/tests/app.jshint', ['exports'], function (expo
   QUnit.module('JSHint - app.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'app.js should pass jshint.');
+    assert.ok(false, 'app.js should pass jshint.\napp.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 3, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 4, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napp.js: line 6, col 1, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\napp.js: line 13, col 3, \'object short notation\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\napp.js: line 18, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n7 errors');
   });
 });
 define('email-signature-generator/tests/application/controller.jshint', ['exports'], function (exports) {
@@ -13,7 +13,7 @@ define('email-signature-generator/tests/application/controller.jshint', ['export
   QUnit.module('JSHint - application/controller.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'application/controller.js should pass jshint.');
+    assert.ok(false, 'application/controller.js should pass jshint.\napplication/controller.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napplication/controller.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\napplication/controller.js: line 8, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\n\n3 errors');
   });
 });
 define('email-signature-generator/tests/application/route.jshint', ['exports'], function (exports) {
@@ -22,7 +22,7 @@ define('email-signature-generator/tests/application/route.jshint', ['exports'], 
   QUnit.module('JSHint - application/route.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'application/route.js should pass jshint.');
+    assert.ok(false, 'application/route.js should pass jshint.\napplication/route.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\napplication/route.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('email-signature-generator/tests/components/ls-generator/component.jshint', ['exports'], function (exports) {
@@ -31,7 +31,7 @@ define('email-signature-generator/tests/components/ls-generator/component.jshint
   QUnit.module('JSHint - components/ls-generator/component.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/ls-generator/component.js should pass jshint.');
+    assert.ok(false, 'components/ls-generator/component.js should pass jshint.\ncomponents/ls-generator/component.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-generator/component.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('email-signature-generator/tests/components/ls-preview/component.jshint', ['exports'], function (exports) {
@@ -40,7 +40,7 @@ define('email-signature-generator/tests/components/ls-preview/component.jshint',
   QUnit.module('JSHint - components/ls-preview/component.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/ls-preview/component.js should pass jshint.');
+    assert.ok(false, 'components/ls-preview/component.js should pass jshint.\ncomponents/ls-preview/component.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-preview/component.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('email-signature-generator/tests/components/ls-the-code/component.jshint', ['exports'], function (exports) {
@@ -49,7 +49,7 @@ define('email-signature-generator/tests/components/ls-the-code/component.jshint'
   QUnit.module('JSHint - components/ls-the-code/component.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'components/ls-the-code/component.js should pass jshint.\ncomponents/ls-the-code/component.js: line 9, col 79, Missing semicolon.\ncomponents/ls-the-code/component.js: line 131, col 2, Missing semicolon.\ncomponents/ls-the-code/component.js: line 7, col 9, \'Clipboard\' is not defined.\n\n3 errors');
+    assert.ok(false, 'components/ls-the-code/component.js should pass jshint.\ncomponents/ls-the-code/component.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 25, col 21, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 25, col 76, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 25, col 113, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 29, col 21, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 29, col 76, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 29, col 113, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 33, col 19, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 37, col 18, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 42, col 147, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 48, col 17, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 53, col 146, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 59, col 18, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 64, col 147, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 70, col 15, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 75, col 144, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 81, col 20, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 86, col 149, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 92, col 17, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 97, col 146, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 102, col 12, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 103, col 162, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 107, col 42, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 116, col 41, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 120, col 51, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 129, col 74, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 136, col 66, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 136, col 223, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 5, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/ls-the-code/component.js: line 6, col 17, \'spread/rest operator\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 8, col 50, \'arrow function syntax (=>)\' is only available in ES6 (use \'esversion: 6\').\ncomponents/ls-the-code/component.js: line 9, col 79, Missing semicolon.\ncomponents/ls-the-code/component.js: line 131, col 2, Missing semicolon.\n\n34 errors');
   });
 });
 define('email-signature-generator/tests/helpers/destroy-app', ['exports', 'ember'], function (exports, _ember) {
@@ -600,7 +600,7 @@ define('email-signature-generator/tests/resolver.jshint', ['exports'], function 
   QUnit.module('JSHint - resolver.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'resolver.js should pass jshint.');
+    assert.ok(false, 'resolver.js should pass jshint.\nresolver.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nresolver.js: line 3, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n2 errors');
   });
 });
 define('email-signature-generator/tests/router.jshint', ['exports'], function (exports) {
@@ -609,7 +609,7 @@ define('email-signature-generator/tests/router.jshint', ['exports'], function (e
   QUnit.module('JSHint - router.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'router.js should pass jshint.');
+    assert.ok(false, 'router.js should pass jshint.\nrouter.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nrouter.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nrouter.js: line 4, col 1, \'const\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nrouter.js: line 11, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\n\n4 errors');
   });
 });
 define('email-signature-generator/tests/test-helper', ['exports', 'email-signature-generator/tests/helpers/resolver', 'ember-qunit'], function (exports, _emailSignatureGeneratorTestsHelpersResolver, _emberQunit) {

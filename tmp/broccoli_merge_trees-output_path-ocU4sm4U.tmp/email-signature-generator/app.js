@@ -1,1 +1,0 @@
-/Users/ovidius/Desktop/work/email-signature-generator/app/app.js

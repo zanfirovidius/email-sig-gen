@@ -14,12 +14,9 @@
     <div class="col-lg-6">
         {{ls-preview model=model}}
         <div class="m-t-xl">
-          {{#paper-button primary=true onClick=(action "viewTheCode")}}{{paper-icon "code"}}{{/paper-button}}
-          {{#liquid-if code}}
           <div class="m-t-xl">
             {{ls-theCode model=model}}
           </div>
-          {{/liquid-if}}
         </div>
     </div>
 </div>

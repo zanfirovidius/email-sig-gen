@@ -1,1 +1,0 @@
-/Users/ovidius/Desktop/work/email-signature-generator/tmp/creator-output_path-QTjU6YSp.tmp/version.js

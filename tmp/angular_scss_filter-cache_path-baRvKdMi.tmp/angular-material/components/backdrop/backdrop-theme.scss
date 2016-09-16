@@ -1,9 +1,0 @@
-md-backdrop {
-
-  background-color: rgba(color($background, "900"), 0.0);
-
-  &.md-opaque.md-default-theme , .md-opaque {
-    background-color: rgba(color($background, "900"), 1.0);
-  }
-
-}
